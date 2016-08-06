@@ -1,4 +1,23 @@
-hark-www (1.0.0) UNRELEASED; urgency=low
+hark-www (1.0.2) UNRELEASED; urgency=medium
+
+  [ Cera Davies ]
+  * [UPDATE] add project status page; fix titles; add page title
+  * [UPDATE] update project_status with ssl for imagestore
+
+  [ Hark ]
+
+ -- Cera Davies <ceralena.davies@gmail.com>  Sat, 06 Aug 2016 07:03:30 +0000
+
+hark-www (1.0.1) RELEASED; urgency=medium
+
+  [ Cera Davies ]
+  * [UPDATE] add project status page; fix titles; add page title
+
+  [ Hark ]
+
+ -- Cera Davies <ceralena.davies@gmail.com>  Sat, 06 Aug 2016 04:07:08 +0000
+
+hark-www (1.0.0) RELEASED; urgency=low
 
   [ Cera Davies ]
   * [FEATURE] First commit: site scaffold

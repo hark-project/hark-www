@@ -1,0 +1,72 @@
++++
+date = "2016-08-06T12:29:00+10:00"
+title = "Project Status"
+
++++
+:toc:
+:toc-placement: macro
+:toc-title:
+
+Hark is a work in progress. This page includes a summary of feature status and
+a changelog.
+
+_Last Updated_: 2016-08-06
+
+toc::[]
+
+## Feature Status
+
+### Basic VM Features
+
+* [green]#✔# create new machine (`hark vm new`)
+* [green]#✔# start and stop machine (`hark vm start`, `hark vm stop`)
+* [green]#✔# assign and query private IPs for machines (`hark networking`)
+* [red]#✖# destroy machine (`hark vm remove`)
+* [red]#✖# system status check for hypervisor support (`hark check`)
+* [red]#✖# mount shared NFS dir from machine on host (`hark share`)
+
+### Image Management
+
+A key feature of hark is it provides images for every combination
+of driver and guest OS. The hark tools know how to pull down these images from
+the `imagestore` service and cache them locally.
+
+* [green]#✔# images can be pulled from S3 (`hark image pull`)
+* [green]#✔# locally cached images can be listed (`hark image list)`
+* [red]#✖# locally cached images can be removed (`hark image remove)`
+* [red]#✖# HTTPS support for imagestore service
+
+### Supported Drivers
+
+The driver is the virtual machine hypervisor. Some drivers (e.g. virtualbox)
+run universally; others will only work on certain hosts.
+
+* [green]#✔# Virtualbox
+* [red]#✖# Qemu/KVM
+
+### Supported and Tested Hosts
+
+* [green]#✔# Mac OS X
+* [red]#✖# Windows
+* [red]#✖# Linux
+* [red]#✖# FreeBSD
+
+### Supported and Tested Guests
+
+* [red]#✖# CoreOS
+* [green]#✔# Debian
+* [red]#✖# DragonflyBSD
+* [red]#✖# Fedora
+* [red]#✖# FreeBSD
+* [red]#✖# MINIX
+* [red]#✖# NetBSD
+* [red]#✖# OpenBSD
+* [red]#✖# OpenSUSE
+* [red]#✖# Ubuntu
+
+## Change Log
+
+#### 2016-08-6
+
+* added feature matrics and change log to this page
+* deployed imagestore service publicly

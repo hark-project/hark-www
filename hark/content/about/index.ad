@@ -1,8 +1,11 @@
 +++
 date = "2016-07-30T21:33:50+10:00"
-title = "index"
+title = "About Hark"
 
 +++
+
+_Please note_: This site is under construction, and hark does not quite do
+everything it says here. See the link:/about/project_status[project status page] for detais.
 
 Hark is a simple cross-platform tool for running virtual machines. It starts
 VMs very quickly with a minimum of configuration. It is written in
@@ -46,7 +49,7 @@ Hark is tested to work on *Windows*, *Mac OS X* and *Linux*.
 
 It can run VMs in any of these operating systems out of the box (in alphabetical order):
 
-* Debian (7, 8)
+* Debian (8)
 
 Soon to be added:
 

@@ -83,3 +83,11 @@ li p {
     /* disable margin after p element inside a list */
     margin: 0.5em 0 0.5em 0;
 }
+
+span.green {
+    color: green;
+}
+
+span.red {
+    color: red;
+}

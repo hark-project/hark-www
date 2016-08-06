@@ -1,0 +1,14 @@
+Source: hark-www
+Section: unknown
+Priority: optional
+Maintainer: Hark <hark@deba2>
+Build-Depends: debhelper (>= 9), asciidoctor, hugo
+Standards-Version: 3.9.5
+Homepage: https://hark-project.net
+Vcs-Git: https://github.com/hark-project/hark-www
+
+Package: hark-www
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

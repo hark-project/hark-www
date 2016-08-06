@@ -12,13 +12,8 @@ First, install [Hugo](https://gohugo.io/). For OSX:
 
 ## Uploading a Build
 
-Run a build with a version:
+Just run:
 
-	./scripts/build.sh $version
+	dpkg-buildpackage -us -uc -b
 
-Upload to the bucket:
-
-	./scripts/build.sh hark-www-$version.tar.gz
-
-	export AWS_PROFILE=CeraInfraDeployUpload
-	aws s3 cp $artifact s3://cera-infra/deploy/hark-www/
+build-depends includes `hugo`, which is not in Debian. Install the `.deb` from [here](https://github.com/spf13/hugo/releases).

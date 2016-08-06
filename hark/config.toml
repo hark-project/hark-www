@@ -29,3 +29,14 @@ twitter = "https://twitter.com/ceralena"
 	identifier = "contribute"
 	weight = 4
 	url = "/contribute/"
+
+[[menu.about]]
+	name = "index"
+	identifier = "index"
+	weight = 1
+	url = "/about/"
+[[menu.about]]
+	name = "project status"
+	identifier = "project status"
+	weight = 2
+	url = "/about/project_status/"

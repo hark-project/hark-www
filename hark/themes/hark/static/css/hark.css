@@ -45,12 +45,12 @@ div.document {
 
 
 /* NAVIGATION */
-nav {
+nav.main {
 	margin: auto;
 	text-align: center;
 }
 
-nav a {
+nav.main a {
 	margin: auto 5px auto 5px;
 	color: black;
 	font-size: 1.2em;
@@ -58,7 +58,25 @@ nav a {
 	text-transform: uppercase;
 }
 
-nav a.current {
+nav.main a.current {
+	text-decoration: underline;
+}
+
+nav.child {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+nav.child a {
+	margin: auto 5px auto 5px;
+	color: black;
+	font-size: 0.9em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav.child a.current {
 	text-decoration: underline;
 }
 

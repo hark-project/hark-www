@@ -14,14 +14,20 @@
 	<a href="{{ .Site.Params.twitter }}"><img src="{{ relURL "img/Twitter_Social_Icon_Circle_White.png" }}" class="twitter"></a>
     </header>
     <div class='document'>
-    <nav>
+    <nav class='main'>
     {{ $currentNode := . }}
     {{ range .Site.Menus.main }}
-        <a
-	    href="{{.URL}}"
-	    class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}current{{end}}"
-        >{{ .Name }}</a>
+        <a href="{{.URL}}" >{{ .Name }}</a>
     {{ end }}
     </nav>
 
+    <nav class='child'>
+    {{ if index .Site.Menus .Section }}
+      {{ range index .Site.Menus .Section }}
+        <a href="{{.URL}}" >{{ .Name }}</a>
+      {{ end }}
+    {{ end }}
+    </nav>
+
+    <hr>
     <article>

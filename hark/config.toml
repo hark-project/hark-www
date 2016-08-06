@@ -3,11 +3,11 @@ languageCode = "en-us"
 title = "hark"
 theme = "hark"
 googleAnalytics = "UA-81656661-1"
-SectionPagesMenu = "main"
 pygmentsuseclasses = true
 
 [params]
-githuburl = "https://github.com/hark-project"
+github = "https://github.com/hark-project"
+twitter = "https://twitter.com/ceralena"
 
 [[menu.main]]
 	name = "about"

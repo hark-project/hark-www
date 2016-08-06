@@ -1,0 +1,84 @@
++++
+date = "2016-07-30T21:03:31+10:00"
+title = "index"
+
++++
+
+## Basic Commands
+
+All hark operations are run through the `hark` command.
+
+After link:/usage/install[installing hark], the basic operation is to start a new VM:
+
+[source,shell]
+----
+hark vm new
+----
+
+You will be prompted for the name of the machine, which driver and guest
+operating system to run, etc.
+
+When the VM is set up, you'll also be prompted to start it. If you don't start
+it straight away, you can just run:
+
+[source,shell]
+----
+$ hark vm start
+----
+
+This will prompt for the name of the machine. If you want to skip the prompt,
+specify the name:
+
+[source,shell]
+----
+$ hark vm start --name mymachine
+----
+
+## Help Files
+
+You can run `hark --help` to show available commands and their options. This is
+the best way learn all the features of hark. For example:
+
+[source,shell]
+----
+$ hark --help
+Usage: hark [OPTIONS] COMMAND [ARGS]...
+
+  Hark is a tool to help manage virtual machines
+
+Options:
+  --hark-home TEXT
+  --log-level TEXT
+  --help            Show this message and exit.
+
+Commands:
+  image  Work with hark images
+  log    Show the hark log
+  share  Share a folder with a VM.
+  ssh    Connect to a machine over SSH
+  util   Various utility commands
+  vm     Commands for working with hark machines
+----
+
+You can also run `--help` on hark's subcommands:
+
+
+[source,shell]
+----
+$ hark vm --help
+Usage: hark vm [OPTIONS] COMMAND [ARGS]...
+
+  Commands for working with hark machines
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  list      List hark machines
+  mappings  Show all configured port mappings
+  new       Create a new hark machine
+  setup     Run the setup script for a machine
+  start     Start a machine
+  stop      Stop a machine
+----
+

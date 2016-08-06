@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>{{ .Title }}</title>
+
+    {{ .Hugo.Generator }}
+
+    <link rel="stylesheet" href="{{ relURL "css/normalize-v4.1.1.css" }}">
+    <link rel="stylesheet" href="{{ relURL "css/hark.css" }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ relURL "/"}}">hark</a></h1>
+	<a href="{{ .Site.Params.githuburl }}"><img src="{{ relURL "img/GitHub-Mark-Light-120px-plus.png" }}"></a>
+    </header>
+    <div class='document'>
+    <nav>
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+        <a
+	    href="{{.URL}}"
+	    class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}current{{end}}"
+        >{{ .Name }}</a>
+    {{ end }}
+    </nav>
+
+    <article>

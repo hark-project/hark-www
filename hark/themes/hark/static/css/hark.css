@@ -1,0 +1,85 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+	width: 100%;
+	opacity: 90%;
+	height: 40px;
+}
+
+header h1 {
+	margin: auto;
+	text-align: center;
+}
+header h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+header img {
+	position: fixed;
+	top: 5px;
+	right: 10px;
+	height: 30px;
+}
+
+
+/* MAIN PAGE */
+div.document {
+	padding-top: 40px;
+	width: 940px;
+	margin: 20px auto 0 auto;
+}
+
+
+/* NAVIGATION */
+nav {
+	margin: auto;
+	text-align: center;
+}
+
+nav a {
+	margin: auto 5px auto 5px;
+	color: black;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a.current {
+	text-decoration: underline;
+}
+
+/* CONTENT - CODE */
+
+/* inline */
+code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* block */
+pre.highlight {
+    color: #c7254e;
+    font-size: 90%;
+    background-color: #f9f2f4;
+    padding: 9.5px;
+    border: 1px solid #ccc;
+    /*padding: 2px 4px;*/
+    /*border-radius: 4px;*/
+}
+
+
+/* CONTENT - LISTS */
+
+li p {
+    /* disable margin after p element inside a list */
+    margin: 0.5em 0 0.5em 0;
+}

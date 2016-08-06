@@ -1,0 +1,31 @@
+baseurl = "https://hark-project.net"
+languageCode = "en-us"
+title = "hark"
+theme = "hark"
+googleAnalytics = "UA-81656661-1"
+SectionPagesMenu = "main"
+pygmentsuseclasses = true
+
+[params]
+githuburl = "https://github.com/hark-project"
+
+[[menu.main]]
+	name = "about"
+	identifier = "about"
+	weight = 1
+	url = "/about/"
+[[menu.main]]
+	name = "usage"
+	identifier = "usage"
+	weight = 2
+	url = "/usage/"
+[[menu.main]]
+	name = "blog"
+	identifier = "blog"
+	weight = 3
+	url = "/blog/"
+[[menu.main]]
+	name = "contribute"
+	identifier = "contribute"
+	weight = 4
+	url = "/contribute/"

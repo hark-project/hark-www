@@ -1,0 +1,68 @@
++++
+date = "2016-07-30T21:33:50+10:00"
+title = "index"
+
++++
+
+Hark is a simple cross-platform tool for running virtual machines. It starts
+VMs very quickly with a minimum of configuration. It is written in
+https://www.python.org[python].
+
+Hark is influenced by https://www.vagrantup.com[Vagrant], but hark is smaller,
+less ambitious, and has a different target audience.
+
+### Philosophy
+
+Hark aims to be:
+
+* simple
+* configuration-free
+* easy to understand
+
+Hark can be simple and easy to use because it only runs a prebuilt set of OS
+images. These images are maintained by the project developers itself.
+
+Steps like finding and downloading bootable images online from a fast mirror,
+figuring out how to boot from them, and configuring the initial system are an
+unecessary obstruction to the goal of getting a working shell in a unix-like
+operating system. They should not be a user's first experience of running Linux or
+any other OS.
+
+Hark is able to find, download and manage images from a web service hosted by
+the hark project. This frees users from having to find `.iso` files, figuring
+out how to make them work, and configuring the initial operating system setup.
+
+### Audience
+
+Hark is primarily aimed at:
+
+* students
+* people learning about Linux, *BSD and other unix-like operating systems
+* developers looking for a lean, simple VM manager for prototyping and testing
+
+### Features
+
+Hark is tested to work on *Windows*, *Mac OS X* and *Linux*.
+
+It can run VMs in any of these operating systems out of the box (in alphabetical order):
+
+* Debian (7, 8)
+
+Soon to be added:
+
+* CoreOS (1068.8)
+* DragonflyBSD (4.6)
+* Fedora (24)
+* FreeBSD (9, 10)
+* MINIX (3.3.0)
+* NetBSD (7.0)
+* OpenBSD (5.9)
+* OpenSUSE (42.1)
+* Ubuntu 16.04 (server)
+
+The following drivers or "hypervisors" are supported to run VMs:
+
+* Virtualbox (all platforms)
+* Qemu/KVM (Linux hosts only)
+
+More hypervisors may be added depending on the viability of bhyve, xhyve, etc.

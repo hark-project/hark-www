@@ -5,7 +5,8 @@ title = "About Hark"
 +++
 
 _Please note_: This site is under construction, and hark does not quite do
-everything it says here. See the link:/about/project_status[project status page] for detais.
+everything it says here. See the link:/about/project_status[project status
+page] for details.
 
 Hark is a simple cross-platform tool for running virtual machines. It starts
 VMs very quickly with a minimum of configuration. It is written in

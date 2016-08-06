@@ -33,8 +33,8 @@ the `imagestore` service and cache them locally.
 
 * [green]#✔# images can be pulled from S3 (`hark image pull`)
 * [green]#✔# locally cached images can be listed (`hark image list)`
+* [green]#✔# HTTPS support for imagestore service
 * [red]#✖# locally cached images can be removed (`hark image remove)`
-* [red]#✖# HTTPS support for imagestore service
 
 ### Supported Drivers
 

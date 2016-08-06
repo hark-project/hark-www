@@ -1,0 +1,26 @@
++++
+date = "2016-07-30T21:03:41+10:00"
+title = "Contribute to Hark"
+
++++
+
+Hark currently has only one developer - Cera - who works full time in Sydney.
+She's actively looking for help.
+
+Since the project is still in its early stages, the best way to help for now is
+to contact Cera directly:
+
+* twitter: https://twitter.com/ceralena
+* email: ceralena.davies@gmail.com
+
+Hark is a fun project to work on. It's written https://www.python.org[python],
+heavily using the beautiful http://click.pocoo.org[click] library. Hark images
+are built with the https://github.com/hark-project/hark-builder[builder tool],
+which uses https://www.packer.io/[Packer] under the hood.
+
+Specifically, you could help with:
+
+* just using hark and reporting any issues
+* adding support for new guests by writing `packer` recipes - see the feature
+	matrix on the link:/about/project_status[project status page]
+* Browsing the list of https://github.com/hark-project/hark/issues[Github Issues]

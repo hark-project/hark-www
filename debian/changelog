@@ -1,4 +1,28 @@
-hark-www (1.0.2) UNRELEASED; urgency=medium
+hark-www (1.0.4) RELEASED; urgency=medium
+
+  [ Cera Davies ]
+  * [UPDATE] update project_status with ssl for imagestore
+  * [FEATURE] Add twitter image and url in header
+  * [FEATURE] Add submenus
+  * [CONTENT] Add contribute page; fix typo
+
+  [ Hark ]
+
+ -- Cera Davies <ceralena.davies@gmail.com>  Fri, 12 Aug 2016 18:42:54 +0000
+
+hark-www (1.0.3) RELEASED; urgency=medium
+
+  [ Cera Davies ]
+  * [UPDATE] update project_status with ssl for imagestore
+  * [FEATURE] Add twitter image and url in header
+  * [FEATURE] Add submenus
+  * [CONTENT] Add contribute page; fix typo
+
+  [ Hark ]
+
+ -- Cera Davies <ceralena.davies@gmail.com>  Sat, 06 Aug 2016 09:49:02 +0000
+
+hark-www (1.0.2) RELEASED; urgency=medium
 
   [ Cera Davies ]
   * [UPDATE] add project status page; fix titles; add page title

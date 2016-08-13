@@ -66,7 +66,11 @@ run universally; others will only work on certain hosts.
 
 ## Change Log
 
+#### 2016-08-13
+
+* marked `hark vm remove` as complete
+
 #### 2016-08-6
 
-* added feature matrics and change log to this page
+* added feature matricx and change log to this page
 * deployed imagestore service publically

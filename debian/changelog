@@ -1,3 +1,12 @@
+hark-www (1.0.6) RELEASED; urgency=medium
+
+  [ Cera Davies ]
+  * [CLEANUP] 'destroy' -> 'remove'
+
+  [ Hark ]
+
+ -- Cera Davies <ceralena.davies@gmail.com>  Sat, 13 Aug 2016 04:50:35 +0000
+
 hark-www (1.0.5) RELEASED; urgency=medium
 
   [ Cera Davies ]

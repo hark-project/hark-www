@@ -21,7 +21,7 @@ toc::[]
 * [green]#✔# create new machine (`hark vm new`)
 * [green]#✔# start and stop machine (`hark vm start`, `hark vm stop`)
 * [green]#✔# assign and query private IPs for machines (`hark networking`)
-* [green]#✔# destroy machine (`hark vm remove`)
+* [green]#✔# remove machine (`hark vm remove`)
 * [red]#✖# system status check for hypervisor support (`hark check`)
 * [red]#✖# mount shared NFS dir from machine on host (`hark share`)
 
